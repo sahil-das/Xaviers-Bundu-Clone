@@ -1,0 +1,148 @@
+
+body{
+  
+  background-color:#ff1ff;
+}
+.heading{
+  width: 100%;
+}
+.sahil{
+ background-color: #f2fcff;
+
+}
+.content-section-a{
+  
+}
+.col-3{
+  padding: .10rem;
+  }
+.heading img{
+  width: 100%;
+}
+.content-section-a{
+  margin-top: 40px;
+}
+.navbar-brand{
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+#carouselExampleControls{
+  background-color: #ffbd54;
+}
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+ul{
+  
+  display: flex;
+}
+.list{
+  list-style:none;
+  padding:5px 10px;
+}
+marquee{
+  
+  font-weight:bold; 
+  font-size:20px; 
+  color:#025e89;
+  margin-top:40px;
+}
+section{
+  margin: 10px;
+}
+p{
+   font-family:Calibri;
+   text-align: justify;
+   /*font-size: 18px;*/
+   
+}
+h4{
+  font-weight: bold;
+  background:#7291ca;
+  padding:7px ;
+  color:#fff;
+  text-align:center;
+}
+h5{
+  font-weight: bold;
+  background:#7291ca;
+  padding:7px ;
+  color:#fff;
+  text-align:center;
+}
+/*ittlele{
+  background:rgba(49,0,191,0.559);
+   color:#fff;  
+   text-align:center; 
+}*/
+.cont{
+  background-color: #ff5252;
+}
+.img{
+  
+  width: 100%;
+  background-color: #83ff00;
+  
+}
+
+.gallery-tittle{
+  text-align: center;
+}
+#cont-gallery{
+  margin: -10px;
+}
+.gallery{
+  height: 150px;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-template-rows:47% 47%;
+  grid-row-gap:6%;
+  grid-column-gap:1%;
+}
+.gallery-img{
+  width: 100%;
+  height: 100%;
+}
+footer{
+  background-color:#7291ca;
+  margin-top:10px;
+}
+.footer-heading{
+  font-size: 17px;
+  color: #ffff;
+}
+.mail::before {
+    
+    content: "📧 ";
+}
+
+#tel::before{
+    content: "📞 ";
+}
+a:link {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.copyright{
+  font-size:.7rem;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 1px;
+}
+.copyright-div{
+  width: 100%;
+  align-content:center;
+  align-items:center;
+}
+/*@media only screen and (max-width: 600px) {
+  section {
+  display: flex ;
+  flex-direction:column;
+  background-color:#00ccffcb;
+  margin: 10px;
+}
+}
